@@ -63,7 +63,7 @@ phi_fitness_sort=[]
 pop_s=population(N_ind,N_prop,N_bit)
 pop_s=pop_s[::-1]
 print(len(pop_s))
-root='C:/Users/Tomás/Desktop/PRODEM/optimizacao/Trabalho_tomas/genetic/'
+root='.../genetic/'
 pop_s= open(root+ 'text_file.txt', 'r').read()
 
 #evaluate population
